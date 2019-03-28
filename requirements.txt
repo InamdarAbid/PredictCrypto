@@ -1,0 +1,17 @@
+Keras==2.2.4
+Keras-Applications==1.0.6
+Keras-Preprocessing==1.0.5
+langdetect==1.0.7
+matplotlib==3.0.0
+nltk==3.3
+normalize==1.0.4
+notebook==5.7.0
+numpy==1.14.2
+pandas==0.22.0
+scikit-learn==0.20.2
+scipy==1.2.0
+tensorboard==1.11.0
+tensorflow==1.11.0
+textblob==0.15.1
+twitterscraper==0.9.3
+webhoseio==0.5
