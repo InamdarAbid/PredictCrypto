@@ -2,10 +2,23 @@
 
 {% block body %}
 
-<div class="jumbotron text-center">
-	<h2>The Current Price Of Bitcoin : {{price}}$</h2>
-    <p class="lead">Hey there I m news</p>
+
+
+<div class= "text-center">
+    <div class="tile">
+            <div class="wrapper">
+                <div class="header" style="color:blue";>BTC Price</div>
+
+                <h2>{{price}}$</h2>
+
+
+            </div>
+    </div>
 </div>
+
+
+
+
 
     <div class="container-fluid">
         <div class="row">
@@ -77,13 +90,12 @@
                 <div class="tile">
                     <div class="wrapper">
                         <div class="header"> Bitcoin Graph</div>
+                        
 
-                        <div class="dates">
-                            Todays Date
-                        </div>
-
-                        <div style="height: 240px;" class="stats">
-
+                        <div style="height: 320px;" class="stats">
+                               
+                                <img src="/static/images/btcprice.png" alt="bitcoin live price" width="95%" height="auto"> 
+                                        
 
                         </div>
 
