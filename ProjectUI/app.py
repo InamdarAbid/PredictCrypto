@@ -8,8 +8,16 @@ r = requests.get('https://api.coindesk.com/v1/bpi/currentprice.json')
 price = r.json()['bpi']['USD']['rate']
 
 @app.route('/')
+
 @app.route('/home/<float:price>')
 def index():
+    # preprocess news
+    # preprocess twitter
+    # build model for news
+    # build model for twitter
+    # predict using news model
+    # predict using news model
+
     return render_template("home.html", price=price)
 
 if(__name__=="__main__"):
